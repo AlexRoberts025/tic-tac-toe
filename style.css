@@ -1,0 +1,48 @@
+html {
+    background-color: rgb(46, 46, 46);
+}
+
+h1 {
+    font-size: 84px;
+    color:rgb(0, 225, 255);
+    text-shadow: black 4px 4px 10px;
+    text-align: center;
+
+}
+#message {
+    font-size:48px;
+    color:royalblue;
+    text-shadow: black 4px 4px 6px;
+    text-align: center;
+}
+.board{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    margin-left:25%;
+    margin-right:25%;
+}
+    .square {
+        width:16vw;
+        height:20vh;
+        margin: 10px;
+        box-shadow: black 5px 5px 15px;
+        font-size: 48px;
+        color:white;
+        text-shadow: black 4px 4px 8px;
+    }
+button {
+    background-color: gray;
+    text-align: center;
+}
+    button:hover {
+        background-color: rgb(75, 75, 75);
+    }
+
+.restart {
+    padding: 16px;
+    font-size: 32px;
+    color:white;
+    text-shadow: black 2px 2px 2px;
+    margin-left:44%;
+}
